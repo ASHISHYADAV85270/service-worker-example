@@ -123,6 +123,4 @@ if (navigator.serviceWorker) {
 - Ensure the service worker file (`sw.js`) is located in the root directory or adjust the registration path accordingly.
 - Use HTTPS or `localhost` for testing, as service workers require a secure context.
 
-## License
-This project is open-source and free to use.
 
