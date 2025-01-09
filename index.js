@@ -5,9 +5,7 @@ if (navigator.serviceWorker) {
   // if the scope is not set, the service worker will be active in the current directory
   // if the scope is set, the service worker will be active in the current directory and all the subdirectories
   navigator.serviceWorker
-    .register("./sw.js", {
-      scope: "/",
-    })
+    .register("./sw.js")
     .then((res) => {
       console.log("Service worker registered successfully", res);
     })
